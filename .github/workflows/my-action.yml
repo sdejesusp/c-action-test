@@ -6,8 +6,6 @@ on: [push]
 
 # Jobs run in parallel by default, each run steps in sequence
 jobs:
-
-	# Job to print something out
 	say-hello:
 		runs-on: ubuntu-latest
 		steps:
